@@ -1,0 +1,25 @@
+name: proj1
+main: com.github.mcqueenorama.proj1.proj1
+version: 1.0
+commands:
+   basic:
+      description: This is a demo command.
+      usage: /basic [player]
+      permission: proj1.basic
+      permission-message: You don't have skills
+   pignite:
+      description: sam ignite commmand
+      usage: /pignite [player]
+      permission: proj1.basic
+      permission-message: burn
+   immt:
+      description: make yourself immortal
+      usage: /immt
+      permission: proj1.basic
+      permission-message: naw son
+   immf:
+      description: make yourself mortal
+      usage: /immf
+      permission: proj1.basic
+      permission-message: naw son
+      
